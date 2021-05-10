@@ -81,12 +81,13 @@ img_cdn: ''
 # the avatar on sidebar, support local or CORS resources
 avatar: attachments/avatar@256px.jpg
 
-# boolean type, the global switch for ToC in posts.
+# ???????????? boolean type, the global switch for ToC in posts.
 toc: true
 
+# Comments
 disqus:
-  comments: false  # boolean type, the global switch for posts comments.
-  shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  comments: true  # boolean type, the global switch for posts comments.
+  shortname: 'hydev-blog'   # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 paginate: 10
 
@@ -157,6 +158,7 @@ exclude:
   - gulpfile.js
   - node_modules
   - '*.json'
+  - '.idea'
 
 jekyll-archives:
   enabled: [categories, tags]
